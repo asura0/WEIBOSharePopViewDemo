@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		938C5FD91D2BAA4B00C37055 /* UIView+EXTENSION.m in Sources */ = {isa = PBXBuildFile; fileRef = 938C5FD81D2BAA4B00C37055 /* UIView+EXTENSION.m */; };
+		938C5FDC1D2BBAFA00C37055 /* UIButton+ImageTitleSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = 938C5FDB1D2BBAFA00C37055 /* UIButton+ImageTitleSpacing.m */; };
 		93B375331D2B9C0400C4C44E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B375321D2B9C0400C4C44E /* main.m */; };
 		93B375361D2B9C0400C4C44E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B375351D2B9C0400C4C44E /* AppDelegate.m */; };
 		93B375391D2B9C0400C4C44E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B375381D2B9C0400C4C44E /* ViewController.m */; };
@@ -15,6 +17,7 @@
 		93B375411D2B9C0400C4C44E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93B3753F1D2B9C0400C4C44E /* LaunchScreen.storyboard */; };
 		93B3754C1D2B9C0400C4C44E /* WEIBOShareDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B3754B1D2B9C0400C4C44E /* WEIBOShareDemoTests.m */; };
 		93B375571D2B9C0400C4C44E /* WEIBOShareDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B375561D2B9C0400C4C44E /* WEIBOShareDemoUITests.m */; };
+		93B375661D2B9DB500C4C44E /* WBSPopShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B375651D2B9DB500C4C44E /* WBSPopShareView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		938C5FD71D2BAA4B00C37055 /* UIView+EXTENSION.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EXTENSION.h"; sourceTree = "<group>"; };
+		938C5FD81D2BAA4B00C37055 /* UIView+EXTENSION.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EXTENSION.m"; sourceTree = "<group>"; };
+		938C5FDA1D2BBAFA00C37055 /* UIButton+ImageTitleSpacing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImageTitleSpacing.h"; sourceTree = "<group>"; };
+		938C5FDB1D2BBAFA00C37055 /* UIButton+ImageTitleSpacing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImageTitleSpacing.m"; sourceTree = "<group>"; };
 		93B3752E1D2B9C0400C4C44E /* WEIBOShareDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WEIBOShareDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93B375321D2B9C0400C4C44E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		93B375341D2B9C0400C4C44E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +58,8 @@
 		93B375521D2B9C0400C4C44E /* WEIBOShareDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WEIBOShareDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93B375561D2B9C0400C4C44E /* WEIBOShareDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WEIBOShareDemoUITests.m; sourceTree = "<group>"; };
 		93B375581D2B9C0400C4C44E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93B375641D2B9DB500C4C44E /* WBSPopShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBSPopShareView.h; sourceTree = "<group>"; };
+		93B375651D2B9DB500C4C44E /* WBSPopShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBSPopShareView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +110,16 @@
 		93B375301D2B9C0400C4C44E /* WEIBOShareDemo */ = {
 			isa = PBXGroup;
 			children = (
+				938C5FD71D2BAA4B00C37055 /* UIView+EXTENSION.h */,
+				938C5FD81D2BAA4B00C37055 /* UIView+EXTENSION.m */,
+				938C5FDA1D2BBAFA00C37055 /* UIButton+ImageTitleSpacing.h */,
+				938C5FDB1D2BBAFA00C37055 /* UIButton+ImageTitleSpacing.m */,
 				93B375341D2B9C0400C4C44E /* AppDelegate.h */,
 				93B375351D2B9C0400C4C44E /* AppDelegate.m */,
 				93B375371D2B9C0400C4C44E /* ViewController.h */,
 				93B375381D2B9C0400C4C44E /* ViewController.m */,
+				93B375641D2B9DB500C4C44E /* WBSPopShareView.h */,
+				93B375651D2B9DB500C4C44E /* WBSPopShareView.m */,
 				93B3753A1D2B9C0400C4C44E /* Main.storyboard */,
 				93B3753D1D2B9C0400C4C44E /* Assets.xcassets */,
 				93B3753F1D2B9C0400C4C44E /* LaunchScreen.storyboard */,
@@ -202,6 +217,7 @@
 		93B375261D2B9C0400C4C44E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = WBS;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = fengwang;
 				TargetAttributes = {
@@ -271,6 +287,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				93B375391D2B9C0400C4C44E /* ViewController.m in Sources */,
+				93B375661D2B9DB500C4C44E /* WBSPopShareView.m in Sources */,
+				938C5FDC1D2BBAFA00C37055 /* UIButton+ImageTitleSpacing.m in Sources */,
+				938C5FD91D2BAA4B00C37055 /* UIView+EXTENSION.m in Sources */,
 				93B375361D2B9C0400C4C44E /* AppDelegate.m in Sources */,
 				93B375331D2B9C0400C4C44E /* main.m in Sources */,
 			);
@@ -498,6 +517,7 @@
 				93B3755D1D2B9C0400C4C44E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		93B3755E1D2B9C0400C4C44E /* Build configuration list for PBXNativeTarget "WEIBOShareDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +526,7 @@
 				93B375601D2B9C0400C4C44E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		93B375611D2B9C0400C4C44E /* Build configuration list for PBXNativeTarget "WEIBOShareDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +535,7 @@
 				93B375631D2B9C0400C4C44E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
